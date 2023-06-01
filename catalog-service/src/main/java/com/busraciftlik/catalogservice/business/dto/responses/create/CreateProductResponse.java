@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
-import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -16,7 +15,6 @@ import java.util.UUID;
 @NoArgsConstructor
 public class CreateProductResponse {
     private UUID id;
-    private Set<UUID> categoryIds;
     private String name;
     private int stock;
     private double price;
